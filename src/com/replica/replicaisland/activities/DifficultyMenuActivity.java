@@ -1,7 +1,14 @@
-package com.replica.replicaisland;
+package com.replica.replicaisland.activities;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+import com.replica.replicaisland.DebugLog;
+import com.replica.replicaisland.R;
+import com.replica.replicaisland.UIConstants;
+import com.replica.replicaisland.R.anim;
+import com.replica.replicaisland.R.id;
+import com.replica.replicaisland.R.layout;
 
 import android.app.Activity;
 import android.content.Intent;

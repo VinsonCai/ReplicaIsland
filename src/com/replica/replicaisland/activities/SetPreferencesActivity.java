@@ -14,7 +14,15 @@
  * limitations under the License.
  */
 
-package com.replica.replicaisland;
+package com.replica.replicaisland.activities;
+
+import com.replica.replicaisland.KeyboardConfigDialogPreference;
+import com.replica.replicaisland.PreferenceConstants;
+import com.replica.replicaisland.R;
+import com.replica.replicaisland.YesNoDialogPreference;
+import com.replica.replicaisland.R.string;
+import com.replica.replicaisland.R.xml;
+import com.replica.replicaisland.YesNoDialogPreference.YesNoDialogListener;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

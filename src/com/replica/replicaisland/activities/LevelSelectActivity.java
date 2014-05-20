@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.replica.replicaisland;
+package com.replica.replicaisland.activities;
 
 import android.app.ListActivity;
 import android.content.Context;
@@ -37,6 +37,17 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+
+import com.replica.replicaisland.DebugLog;
+import com.replica.replicaisland.LevelTree;
+import com.replica.replicaisland.R;
+import com.replica.replicaisland.UIConstants;
+import com.replica.replicaisland.LevelTree.Level;
+import com.replica.replicaisland.LevelTree.LevelGroup;
+import com.replica.replicaisland.R.anim;
+import com.replica.replicaisland.R.id;
+import com.replica.replicaisland.R.layout;
+import com.replica.replicaisland.R.string;
 
 public class LevelSelectActivity extends ListActivity {
     private final static int UNLOCK_ALL_LEVELS_ID = 0;

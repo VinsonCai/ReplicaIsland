@@ -24,6 +24,7 @@ import com.replica.replicaisland.EnemyAnimationComponent.EnemyAnimations;
 import com.replica.replicaisland.GameObject.ActionType;
 import com.replica.replicaisland.GameObject.Team;
 import com.replica.replicaisland.GenericAnimationComponent.Animation;
+import com.replica.replicaisland.activities.AnimationPlayerActivity;
 
 /** A class for generating game objects at runtime.
  * This should really be replaced with something that is data-driven, but it is hard to do data

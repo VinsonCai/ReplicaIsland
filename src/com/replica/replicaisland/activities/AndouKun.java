@@ -14,10 +14,27 @@
  * limitations under the License.
  */
 
-package com.replica.replicaisland;
+package com.replica.replicaisland.activities;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+
+import com.replica.replicaisland.DebugLog;
+import com.replica.replicaisland.EventReporter;
+import com.replica.replicaisland.GLSurfaceView;
+import com.replica.replicaisland.Game;
+import com.replica.replicaisland.GameFlowEvent;
+import com.replica.replicaisland.LevelTree;
+import com.replica.replicaisland.PreferenceConstants;
+import com.replica.replicaisland.R;
+import com.replica.replicaisland.UIConstants;
+import com.replica.replicaisland.LevelTree.Level;
+import com.replica.replicaisland.LevelTree.LevelGroup;
+import com.replica.replicaisland.R.anim;
+import com.replica.replicaisland.R.id;
+import com.replica.replicaisland.R.layout;
+import com.replica.replicaisland.R.string;
+import com.replica.replicaisland.R.xml;
 
 import android.app.Activity;
 import android.app.AlertDialog;

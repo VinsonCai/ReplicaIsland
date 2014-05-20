@@ -14,9 +14,18 @@
  * limitations under the License.
  */
  
- package com.replica.replicaisland;
+ package com.replica.replicaisland.activities;
 
 import java.lang.reflect.InvocationTargetException;
+
+import com.replica.replicaisland.BaseObject;
+import com.replica.replicaisland.DebugLog;
+import com.replica.replicaisland.R;
+import com.replica.replicaisland.UIConstants;
+import com.replica.replicaisland.R.anim;
+import com.replica.replicaisland.R.id;
+import com.replica.replicaisland.R.layout;
+import com.replica.replicaisland.R.string;
 
 import android.app.Activity;
 import android.content.Intent;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.replica.replicaisland;
+package com.replica.replicaisland.activities;
 
 import java.util.ArrayList;
 
@@ -34,8 +34,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.replica.replicaisland.ConversationUtils;
+import com.replica.replicaisland.LevelTree;
+import com.replica.replicaisland.R;
 import com.replica.replicaisland.ConversationUtils.Conversation;
 import com.replica.replicaisland.ConversationUtils.ConversationPage;
+import com.replica.replicaisland.R.anim;
+import com.replica.replicaisland.R.id;
+import com.replica.replicaisland.R.layout;
 
 public class ConversationDialogActivity extends Activity {
 
