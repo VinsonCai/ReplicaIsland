@@ -1,0 +1,3 @@
+GameThread负责基本的渲染线程。
+
+AndouKun作为程序的入口。它加载了布局文件，初始化Game, SurfaceView和Renderer，并控制生命周期。
