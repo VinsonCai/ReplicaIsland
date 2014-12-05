@@ -1,3 +1,15 @@
 GameThread负责基本的渲染线程。
 
 AndouKun作为程序的入口。它加载了布局文件，初始化Game, SurfaceView和Renderer，并控制生命周期。
+
+MainLoop是整个游戏的入口，它继承于ObjectManager，然后在Game里面创建，然后把一些基本的元素加进去。
+
+Game。它包含着程序的核心控制逻辑。
+	创建EventRecorder
+	创建MainLoop
+	创建GameThread
+	
+
+
+
+
