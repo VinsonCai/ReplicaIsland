@@ -21,6 +21,7 @@
 
 11. RenderSystem
 	它维护一个双缓冲渲染队列，当update完所有对象时，就进行一次交换缓冲区。交换完之后，就把前面缓冲队列清空。
+	在交换缓冲队列时，会把当前的队列传给GameRenderer，让GameRenderer在渲染时，可以把当前队列的对象都渲染到屏幕上。
 	scheduleForDraw负责把一个对象添加到队列里面，然后等待渲染。
 	意思就是，那些脏了的对象就提交到renderSystem，然后等待渲染，渲染完之后就把队列的对象都清空，然后等待下一次的渲染和交换。
 
@@ -29,3 +30,8 @@
 
 13. PhasedObject
 
+14. GameRenderer
+	它调用一堆的OpenGL进行设置，然后在onDrawFrame时，把当前的渲染队列取出来进行逐一渲染。
+
+
+15. element.cameraRelative
