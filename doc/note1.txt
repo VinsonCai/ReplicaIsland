@@ -17,6 +17,6 @@ GameThread负责渲染。它持续地调用gameRoot去渲染所有的对象，�
 
 mGameRoot.update(secondsDelta, null);这个secondsDelta是告诉所有的对象，从上一次刷新到现在经过了多少时间。
 通过把这个时间传给所有对象，可以让每个对象单独针对时间进行变化。
-
+在渲染完之后，调用BaseObject.sSystemRegistry.renderSystem.swap(mRenderer, x, y);进行交换FrameBuffer。
 
 

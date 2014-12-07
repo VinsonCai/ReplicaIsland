@@ -19,6 +19,11 @@
 
 10. ObjectManager
 
-
 11. RenderSystem
+	
+
+12. RenderElementPool
+	维护一个渲染对象池，可以通过这个池进行创建和销毁。
+
+13. PhasedObject
 
