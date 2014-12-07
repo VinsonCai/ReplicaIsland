@@ -13,6 +13,6 @@ Game。它包含着程序的核心控制逻辑。
 
 
 GameThread负责渲染。它持续地调用gameRoot去渲染所有的对象，然后循环继续。
-
+每3秒统计一次FPS，如果超过60帧，就通过Thread.sleep(16 - finalDelta);等待一下。
 
 
