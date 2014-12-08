@@ -32,6 +32,7 @@
 
 14. GameRenderer
 	它调用一堆的OpenGL进行设置，然后在onDrawFrame时，把当前的渲染队列取出来进行逐一渲染。
+	在队列里面取出的对象是RenderElement，然后对它的mDrawable进行渲染。这个不是很理解。
 
 
 15. element.cameraRelative
